@@ -12,6 +12,13 @@
 body {
   font-family: 'Roboto', sans-serif;
 }
+a {
+  text-decoration: none;
+}
+a:hover {
+  color: #3596F5;
+  transition: 0.4s ease all;
+}
 .header {
   background-color:#635854;
   padding: 12px 0;
@@ -61,8 +68,13 @@ body {
   margin: auto;
   padding-top: 54px;
   display: flex;
+  padding-bottom: 99px;
 }
-.main-info {
+.container {
+  margin: auto;
+}
+.main-info {  
+  height: 505px;
   flex-grow: 1;
   text-align: center;
   display: flex;
@@ -102,6 +114,7 @@ path.current-floor {
   font-size: 37px;
   line-height: 44px; 
   color: #635854;
+  margin: 0;
 }
 .counter {
   color: #635854;
@@ -115,4 +128,59 @@ path.current-floor {
   border: none;
   padding: 16px 36px;
   cursor: pointer;
+}
+.footer {
+  padding-top: 50px;
+  padding-bottom: 56px;
+  background-color: #D7D7D7;  
+  border-top: solid 4px #3596F5;
+}
+.footer-main {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-sources {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 427px;
+  width: 100%;
+}
+.footer-contacts {
+  text-align: left;
+}
+.footer-text {
+  display: block;
+  color: #635854;
+  margin-bottom: 4px;
+  font-size: 14px;
+  line-height: 16px;  
+}
+.footer-phone {
+  color: #635854;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 20px;
+  text-decoration: none;
+}
+.social-link:not(:first-child) {
+  margin-left: 11px;
+}
+.policies-list {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+.policy-link {
+  font-size: 16px;
+  line-height: 19px;
+  color: #635854;
+  text-decoration: underline;
+}
+.policies-list > li:not(:first-child) {
+  margin-left: 20px;
 }
