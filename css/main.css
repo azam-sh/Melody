@@ -102,6 +102,10 @@ path.current-floor {
   cursor: pointer;
   background-color: #fff;
 }
+.counter-arrow:hover {
+  scale: 1.2;
+  transition: 0.4s ease all;
+}
 .counter-down {
   margin-top: 5px;
 }
@@ -128,6 +132,10 @@ path.current-floor {
   border: none;
   padding: 16px 36px;
   cursor: pointer;
+}
+.button-primary:hover {
+  background-color: #275a8c;
+  transition: 0.4s ease all;
 }
 .footer {
   padding-top: 50px;
